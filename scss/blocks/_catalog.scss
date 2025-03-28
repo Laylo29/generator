@@ -1,0 +1,33 @@
+
+.catalog__title-wrapper{
+     text-align:start;
+     color: var(--clr-dark-grey);
+    
+}
+.catalog__list{
+     display: flex;
+     gap: 26px;
+}
+.catalog__item{
+     text-align: start;
+     width: 250px;
+     box-shadow: 0px 0px 6px 0px #0000001A;
+
+}
+.catalog__title-wrapper > h2{
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      color: var(--clr-dark-grey);
+      margin-bottom: 64px;
+}
+.catalog__list-wrapper > strong{
+     margin-right: 19px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: 0%;
+     
+}
