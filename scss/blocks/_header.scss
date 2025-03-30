@@ -125,9 +125,7 @@
 }
 
 .second-wrapper-1button:hover {
-    background-color: antiquewhite;
-    border-color: bisque;
-    width: 140px;
+    width: 150px;
 }
 
 .second-wrapper-2button, .hero-wrapper-btn{
@@ -159,9 +157,15 @@
     vertical-align: middle;
     color: var(--clr-white);
 }
+.second-wrapper-2button{
+    color: white;
+}
 
-.second-wrapper-2button:hover {
-    border: none;
-    background-color: rgb(34, 180, 237);
-    width: 200px;
+.second-wrapper-2button:hover{
+    background-color: transparent;
+    border: 1px solid #4762FF;
+    color: #4762FF;
+}
+.second-wrapper-2button:hover > span {
+    color: #4762FF;
 }

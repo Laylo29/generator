@@ -1,5 +1,21 @@
-
-
-@mixin BtnStyle(){
-    
+@include BtnStyle ($BorderHoverColor);
+.about-us-btn{
+    width: 196px;
+    height: 52px;
+    margin-top: 55px;
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
+    border-color: var(--clr-blue);
+}
+    &:hover{
+    background-color: transparent;
+    border: 1px solid #4762FF; 
+     color: #4762FF;
 }
