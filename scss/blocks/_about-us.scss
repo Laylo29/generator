@@ -1,16 +1,13 @@
 .about{
-    max-width: 1200px;
     display: flex;
-    justify-content: center;
-    gap: 39px;
+    justify-content: space-between;
     margin-bottom: 76px;
     margin-top: 68px;
-    margin-left: 120px;
 }
 
 .about-us-img-wrapper{
     width: 531px;
-   align-items: center;
+    align-items: center;
 } 
 .about-us-title-wrapper{
     width: 542px;
@@ -36,5 +33,22 @@
      
 }
 .about-us-btn{
-    @include BtnStyle ($BorderHoverColor);
-}
+        width: 196px;
+        height: 52px;
+        margin-top: 55px;
+        margin-left: 300px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        border-radius: 8px;
+        color: var(--clr-white);
+        background-color: var(--clr-blue);
+        border-color: var(--clr-blue);
+    }
+    .about-us-btn:hover{
+        background-color: transparent;
+        border: 1px solid #4762FF; 
+         color: #4762FF;
+     }
